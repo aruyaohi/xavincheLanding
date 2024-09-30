@@ -34,7 +34,7 @@ export default function Tokenomics() {
   return (
     <motion.div
       ref={sectionRef}
-      className="max-w-5xl mx-auto lg:flex justify-between lg:min-h-[400px] lg:mt-10 items-center md:px-20 lg:px-0"
+      className="max-w-5xl mx-auto lg:flex justify-between lg:min-h-[400px] lg:mt-10 items-center md:px-20 lg:px-0 overflow-hidden"
       initial={{ opacity: 0, x: -100 }} // Start off-screen from the left
       animate={isInView ? { opacity: 1, x: 0 } : {}} // Animate to visible when in view
       transition={{ duration: 1 }}

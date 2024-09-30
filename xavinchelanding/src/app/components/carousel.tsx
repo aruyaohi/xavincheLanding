@@ -417,7 +417,7 @@ export default function CarouselSection() {
     };
 
     return (
-        <div className="w-full lg:max-w-5xl mx-auto lg:min-h-[500px] bg-[#181818e9] rounded-md flex flex-col lg:flex-row md:px-20 lg:px-0">
+        <div className="w-full lg:max-w-5xl mx-auto lg:min-h-[500px] bg-[#181818e9] rounded-md flex flex-col lg:flex-row md:px-20 lg:px-0 overflow-hidden">
             {/* Image Section */}
             <motion.div 
                 className="lg:w-2/5 w-full flex flex-col justify-center items-center p-4 image-section transition-transform duration-500 ease-in-out"

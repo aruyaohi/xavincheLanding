@@ -29,7 +29,7 @@ const handleScroll = () => {
     <>
       <motion.div
         id="community-section"
-        className="lg:min-h-[300px] w-full mx-auto lg:mt-10"
+        className="lg:min-h-[300px] w-full mx-auto lg:mt-10 overflow-hidden"
         initial={{ opacity: 0, x: -100 }} // start from left
         animate={isInView ? { opacity: 1, x: 0 } : {}} // ease in
         transition={{ duration: 1 }}
