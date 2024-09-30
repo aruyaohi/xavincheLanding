@@ -9,6 +9,7 @@ import Footer from "./components/footer";
 export default function Home(){
   return(
     <>
+    <div className="overflow-hidden">
       <Header/>
       <div className="lg:py-10 flex flex-col gap-10 lg:gap-5">
       <Hero/>
@@ -17,6 +18,7 @@ export default function Home(){
       <SectionTwo/>
       <Community/>
       <Footer/>
+      </div>
       </div>
     </>
   )

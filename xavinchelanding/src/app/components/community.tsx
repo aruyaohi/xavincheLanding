@@ -47,7 +47,7 @@ const handleScroll = () => {
           <div className="flex justify-center items-center">
             <a
               href="#"
-              className="py-3 px-6 rounded-md bg-purple-600 text-white text-sm font-raleway hover:bg-white hover:text-purple-600"
+              className="py-3 px-6 rounded-md bg-[#D905E5] text-white text-sm font-raleway hover:bg-white hover:text-[#D905E5]"
             >
               Join our Community
             </a>

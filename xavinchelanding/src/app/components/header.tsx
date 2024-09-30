@@ -125,9 +125,9 @@ export default function Header() {
             <section className="relative">
                 <div className="max-w-5xl mx-auto flex justify-between items-center py-5 px-4 lg:py-6">
                     {/* Logo Section */}
-                    <div className="flex items-center">
+                    <div className="flex items-center w-full justify-between">
                         <button 
-                            className="lg:hidden p-2 focus:outline-none" 
+                            className="lg:hidden mt-[-45px] p-2 focus:outline-none" 
                             onClick={toggleMenu}
                         >
                             {!isMenuOpen ? (
@@ -167,16 +167,16 @@ export default function Header() {
                         <img 
                             src="/images/Xavenche Logo_1.png"
                             alt="logo"
-                            className="w-20 h-20 lg:w-28 lg:h-28"
+                            className="w-28 h-28 lg:w-36 lg:h-36"
                         />
                     </div>
 
                     {/* Large Screen Navigation */}
                     <nav className="hidden lg:flex lg:gap-6 text-sm lg:mt-[-65px]">
                         <ul className="flex gap-6 items-center">
-                            <li><a href="#" className="hover:text-purple-500 font-raleway transition-colors delay-200 font-medium">About</a></li>
-                            <li><a href="#" className="hover:text-purple-500 font-raleway font-medium">Tokenomics</a></li>
-                            <li><a href="#" className="hover:text-purple-500 font-raleway font-medium">Docs</a></li>
+                            <li><a href="#" className="hover:text-[#D905E5] font-raleway transition-colors delay-200 font-medium">About</a></li>
+                            <li><a href="#" className="hover:text-[#D905E5] font-raleway font-medium">Tokenomics</a></li>
+                            <li><a href="#" className="hover:text-[#D905E5] font-raleway font-medium">Docs</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -188,9 +188,14 @@ export default function Header() {
                 style={{ transitionProperty: 'max-height, opacity, transform' }}
             >
                 <div className="flex justify-between items-center p-4">
-                    <h3 className="text-white text-xl font-bold">Xavinche</h3>
+                    {/* <h3 className="text-white text-xl font-bold">Xavinche</h3> */}
+                    <img 
+                            src="/images/Xavenche Logo_1.png"
+                            alt="logo"
+                            className="w-28 h-28 lg:w-36 lg:h-36"
+                        />
                     <button 
-                        className="p-2 focus:outline-none text-white" 
+                        className="p-2 focus:outline-none text-white mt-[-50px]" 
                         onClick={toggleMenu}
                     >
                         <svg 
@@ -210,10 +215,10 @@ export default function Header() {
                     </button>
                 </div>
                 <nav>
-                    <ul className="flex flex-col gap-4 p-4">
-                        <li><a href="#" className="hover:text-purple-500 font-raleway transition-colors delay-200 font-semibold text-white">About</a></li>
-                        <li><a href="#" className="hover:text-purple-500 font-raleway font-semibold text-white">Tokenomics</a></li>
-                        <li><a href="#" className="hover:text-purple-500 font-raleway font-semibold text-white">Docs</a></li>
+                    <ul className="flex flex-col gap-4 p-4 mt-[-60px]">
+                        <li><a href="#" className="hover:text-[#D905E5] font-raleway transition-colors delay-200 font-semibold text-white">About</a></li>
+                        <li><a href="#" className="hover:text-[#D905E5] font-raleway font-semibold text-white">Tokenomics</a></li>
+                        <li><a href="#" className="hover:text-[#D905E5] font-raleway font-semibold text-white">Docs</a></li>
                     </ul>
                 </nav>
             </div>

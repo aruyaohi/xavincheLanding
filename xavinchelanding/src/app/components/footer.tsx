@@ -4,21 +4,26 @@ import {FaDiscord,FaXTwitter,FaInstagram,FaGithub} from 'react-icons/fa6'
 export default function Footer(){
     return(
         <>
-            <footer className="lg:min-h-[300px] w-full lg:mt-5 p-8 min-h-[500px] bg-[#000] lg:bg-transparent md:px-20">
+            <footer className="lg:min-h-[300px] w-full lg:mt-5 p-8 min-h-[550px] bg-[#000] lg:bg-transparent md:px-20 pb-20">
                 <div className="lg:max-w-5xl lg:h-[350px] h-[500px] mx-auto">
                     <div className="lg:flex justify-between lg:p-10">
                         <div className="lg:flex lg:flex-col gap-4">
                         <div className="flex justify-start gap-2">
-                        <h3 className="lg:text-xl text-3xl font-bold font-raleway tracking-widest">Xavinche</h3>
+                        {/* <h3 className="lg:text-xl text-3xl font-bold font-raleway tracking-widest">Xavinche</h3> */}
+                        <img 
+                            src="/images/Xavenche Logo_1.png"
+                            alt="logo"
+                            className="w-28 h-28 lg:w-36 lg:h-36"
+                        />
                         </div>
-                        <div>
+                        <div className='lg:mt-[-70px]'>
                             <p className="text-sm font-raleway text-gray-400">Decentralised Social Media and Minting Platform</p>
                         </div>
                         <ul className="flex space-x-4 lg:mt-4 lg:py-3 py-7">
-                        <li><a href="#" className="text-gray-100 hover:text-purple-600"><FaXTwitter/></a></li>
-                        <li><a href="#" className="text-gray-100 hover:text-purple-600 w-14"><FaDiscord/></a></li>
-                        <li><a href="#" className="text-gray-100 hover:text-purple-600"><FaInstagram/></a></li>
-                        <li><a href="#" className="text-gray-100 hover:text-purple-600"><FaGithub/></a></li>
+                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaXTwitter/></a></li>
+                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5] w-14"><FaDiscord/></a></li>
+                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaInstagram/></a></li>
+                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaGithub/></a></li>
                         </ul>
                         </div>
                         <div className='lg:flex lg:flex-col items-start font-raleway text-xs font-bold lg:px-5 gap-3 md:w-3/5'>
@@ -29,16 +34,16 @@ export default function Footer(){
                         placeholder="Your email"
                         className="text-sm px-3 lg:px-6 py-2 rounded-md w-2/3 bg-[#292929b9]"
                         />
-                        <button className="bg-gray-100 text-purple-600 px-4 py-2 font-normal rounded-md hover:bg-purple-700 hover:text-white text-sm w-1/3">
+                        <button className="bg-gray-100 text-[#D905E5] px-4 py-2 font-normal rounded-md hover:bg-[#D905E5] hover:text-white text-sm w-1/3">
                         submit
                         </button>
                         </div>
                         </div>
                         <div className='flex justify-start lg:justify-center font-raleway text-sm font-normal mt-5 lg:mt-0'>
                             <ul className='lg:flex lg:flex-col space-y-3'>
-                                <li><a href="" className='hover:text-purple-500'>About</a></li>
-                                <li><a href="" className='hover:text-purple-500'>Tokenomics</a></li>
-                                <li><a href="" className='hover:text-purple-500'>Docs</a></li>
+                                <li><a href="" className='hover:text-[#D905E5]'>About</a></li>
+                                <li><a href="" className='hover:text-[#D905E5]'>Tokenomics</a></li>
+                                <li><a href="" className='hover:text-[#D905E5]'>Docs</a></li>
                             </ul>
                         </div>
                     </div>

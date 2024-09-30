@@ -43,7 +43,7 @@ export default function Tokenomics() {
         <h1 className="text-4xl pb-3">Balanced Tokenomics and Tokens Distribution</h1>
         <a
           href="#"
-          className="py-3 lg:mt-0 px-6 rounded-md lg:rounded-full text-sm font-semibold bg-gray-100 w-1/4 hover:bg-purple-600 transition-colors delay-75 hover:text-white text-[#420044] font-raleway text-center"
+          className="py-3 lg:mt-0 px-6 rounded-md lg:rounded-full text-sm font-semibold bg-gray-100 w-1/4 hover:bg-[#D905E5] transition-colors delay-75 hover:text-white text-[#D905E5] font-raleway text-center"
         >
           Visit
         </a>
@@ -56,7 +56,7 @@ export default function Tokenomics() {
           animate={isInView ? { opacity: 1, x: 0 } : {}} // Animate when in view
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <span className="absolute -left-6 top-0 text-purple-600 text-5xl font-bold">“</span>
+          <span className="absolute -left-6 top-0 text-[#D905E5] text-5xl font-bold">“</span>
           XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
         </motion.p>
 
@@ -67,7 +67,7 @@ export default function Tokenomics() {
           transition={{ duration: 1, delay: 0.4 }} // Longer delay for staggered effect
         >
           XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
-          <span className="absolute right-0 bottom-0 text-purple-600 text-5xl font-bold">”</span>
+          <span className="absolute right-0 bottom-0 text-[#D905E5] text-5xl font-bold">”</span>
         </motion.p>
       </div>
     </motion.div>

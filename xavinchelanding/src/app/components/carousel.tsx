@@ -482,8 +482,8 @@ export default function CarouselSection() {
                         <label 
                             htmlFor={`content-${index}`} 
                             className={`cursor-pointer flex items-center justify-center w-6 h-6 rounded-full transition-all duration-300 
-                                ${selectedContentIndex === index ? 'bg-purple-600 scale-125' : 'bg-gray-400 scale-50'} 
-                                border-2 ${selectedContentIndex === index ? 'border-purple-600' : 'border-gray-400'} 
+                                ${selectedContentIndex === index ? 'bg-[#D905E5] scale-125' : 'bg-gray-400 scale-50'} 
+                                border-2 ${selectedContentIndex === index ? 'border-[#D905E5]' : 'border-gray-400'} 
                                 transform`}
                         ></label>
                     </motion.div>
