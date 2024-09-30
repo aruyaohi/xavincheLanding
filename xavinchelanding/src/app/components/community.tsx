@@ -36,7 +36,7 @@ const handleScroll = () => {
       >
         <div className="lg:py-20 py-10 lg:max-w-5xl mx-auto bg-[#181818e9] rounded-md flex flex-col gap-4">
           <div className="flex justify-center gap-2">
-            <h3 className="text-xl font-bold font-raleway tracking-widest">Xavinche</h3>
+            <h3 className="text-xl font-bold font-raleway tracking-widest">NewsLetter</h3>
           </div>
           <div className="flex justify-center items-center lg:py-5 lg:px-10 md:px-20">
             <p className="text-white text-sm font-raleway px-10 text-center">
