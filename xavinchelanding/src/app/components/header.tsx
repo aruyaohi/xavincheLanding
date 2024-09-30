@@ -53,7 +53,7 @@ export default function Header() {
                             )}
                         </button>
                         <img 
-                            src="/images/Xavenche Logo_1.png"
+                            src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"
                         />
@@ -78,7 +78,7 @@ export default function Header() {
                 <div className="flex justify-between items-center p-4">
                     {/* <h3 className="text-white text-xl font-bold">Xavinche</h3> */}
                     <img 
-                            src="/images/Xavenche Logo_1.png"
+                            src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"
                         />

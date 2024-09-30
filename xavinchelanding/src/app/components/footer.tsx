@@ -11,7 +11,7 @@ export default function Footer(){
                         <div className="flex justify-start gap-2">
                         {/* <h3 className="lg:text-xl text-3xl font-bold font-raleway tracking-widest">Xavinche</h3> */}
                         <img 
-                            src="/images/Xavenche Logo_1.png"
+                            src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"
                         />
