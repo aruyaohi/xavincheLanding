@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { FaTelegram } from 'react-icons/fa6';
 
 export default function Community() {
   const [isInView, setIsInView] = useState(false);
@@ -47,9 +48,9 @@ const handleScroll = () => {
           <div className="flex justify-center items-center">
             <a
               href="#"
-              className="py-3 px-6 rounded-md bg-[#D905E5] text-white text-sm font-raleway hover:bg-white hover:text-[#D905E5]"
+              className="py-3 px-6 rounded-md bg-[#D905E5] text-white text-sm flex gap-2 items-center justify-between font-raleway hover:bg-white hover:text-[#D905E5]"
             >
-              Join our Community
+             <FaTelegram/> Join our Telegram Community
             </a>
           </div>
         </div>

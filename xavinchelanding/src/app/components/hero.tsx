@@ -15,10 +15,16 @@ export default function Hero() {
                         XaVinche
                     </span>
                     <br/>
-                    Transforming engagement and monetizing your creativity.
+                    Leveraging Social Media Presence and Monetizing Creativity. 
                 </h1>
                 <p className="text-center text-sm text-gray-500 font-raleway lg:px-40 lg:pt-5 px-7">
-                    XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
+                Discover how Content Creators and Influencers can monetize their Social Media presence on XaVinche.
+                </p>
+                <p className="text-center text-sm text-gray-500 font-raleway lg:px-40 lg:pt-5 px-7">
+                Imagine a platform with low transaction fees and fast speed that allows you (An Influencer, A Content Creator/Writer, An Artist, and in fact a Creative of any kind) to post your everyday content which is automatically transformed into a tradable digital asset (NeXa derived from NFT) upon posting, grow your fanbase, be able to attach tokenized/monetary value to your content, and also give you a secure and transparent platform to sell and make good income.
+                And as for Consumers of the Content, you get access to Premium content for your pleasure, personalized picks on the platform, and a chance to procure appreciating assets which can be sold for extra earnings.
+                That is XaVinche!
+
                 </p>
             </motion.div>
         </div>

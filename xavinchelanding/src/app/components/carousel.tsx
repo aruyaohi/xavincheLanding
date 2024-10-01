@@ -16,14 +16,9 @@ export default function CarouselSection() {
         },
         {
             image: "/images/sol.png",
-            title: "Revolutionizing Gaming on Solana",
-            description: "Xavinche will be deployed on the Solana blockchain, bringing high-speed, low-cost transactions to the gaming ecosystem. With Solana's robust infrastructure, developers can create immersive gaming experiences that leverage the power of blockchain.",
-        },
-        {
-            image: "/images/gaming.png",
-            title: "The Future of Gaming is Here",
-            description: "As the gaming industry continues to grow, Xavinche positions itself at the forefront of this evolution. By combining cutting-edge technology with the principles of decentralization, Xavinche creates an innovative platform that empowers players to take control of their gaming experiences.",
-        },    
+            title: "Transforming Social Media into Revenue Streams:",
+            description: "With XaVinche, Influencers and Content Creators are able to transform their ‘Everyday Content’ into tradable NFTs. No longer would you have to mindlessly scroll through Social Media, or spend time, energy, and resources on a Content idea with no good returns on your effort. Welcome to XaVinche, where Everybody Earns.",
+        },  
     ];
 
     // State to track the currently selected content

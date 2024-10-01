@@ -29,12 +29,12 @@ export default function SectionTwo() {
         observer.unobserve(sectionRef.current);
       }
     };
-  }, [])
+  }, []);
 
   return (
     <motion.div
       ref={sectionRef}
-      className="max-w-5xl mx-auto lg:min-h-[600px] lg:flex lg:flex-col relative overflow-hidden md:px-20"
+      className="max-w-5xl mx-auto lg:min-h-[600px] lg:flex lg:flex-col relative overflow-hidden"
       initial={{ opacity: 0, x: 100 }} // Start off-screen (right side)
       animate={isInView ? { opacity: 1, x: 0 } : {}} // Slide in and fade in when in view
       transition={{ duration: 1 }}
@@ -42,7 +42,7 @@ export default function SectionTwo() {
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-tr from-[#32172f] to-transparent via-transparent opacity-30"></div>
 
-      <div className="lg:min-h-[400px] w-full lg:flex lg:p-20 p-10 transition-transform duration-300 ease-in-out hover:scale-105 lg:border border-[#cccccc39] rounded-md relative z-10">
+      <div className="lg:min-h-[400px] w-full lg:flex lg:p-20 p-10 transition-transform duration-300 ease-in-out hover:scale-105 border border-[#cccccc39] rounded-md relative z-10">
         <div className="lg:flex lg:flex-col gap-5 lg:w-1/2 justify-center">
           <h2 className="text-3xl text-white">Long Term Perspective</h2>
           <p className="text-gray-300 text-sm">

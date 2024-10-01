@@ -1,7 +1,17 @@
+'use client'
 import Link from 'next/link'
-import {FaDiscord,FaXTwitter,FaInstagram,FaGithub} from 'react-icons/fa6'
+import { useState } from 'react'
+import {FaDiscord,FaXTwitter,FaInstagram,FaGithub, FaTelegram} from 'react-icons/fa6'
 
 export default function Footer(){
+
+    const [isSucessful, setIsSucessful] = useState(false)
+    const handleSubscription = () =>{
+        setIsSucessful(!isSucessful);
+        setTimeout(() =>{
+            setIsSucessful(false)
+        },3000);
+    }
     return(
         <>
             <footer className="lg:min-h-[300px] w-full lg:mt-5 p-8 min-h-[550px] bg-[#000] lg:bg-transparent md:px-20 pb-20">
@@ -22,19 +32,20 @@ export default function Footer(){
                         <ul className="flex space-x-4 lg:mt-4 lg:py-3 py-7">
                         <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaXTwitter/></a></li>
                         <li><a href="#" className="text-gray-100 hover:text-[#D905E5] w-14"><FaDiscord/></a></li>
-                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaInstagram/></a></li>
+                        <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaTelegram/></a></li>
                         <li><a href="#" className="text-gray-100 hover:text-[#D905E5]"><FaGithub/></a></li>
                         </ul>
                         </div>
                         <div className='lg:flex lg:flex-col items-start font-raleway text-xs font-bold lg:px-5 gap-3 md:w-3/5'>
                         <p className='font-raleway text-sm'>Get Updates</p>
+                        {isSucessful? <p className='text-sm text-[#D905E5] transition-colors delay-100'>Subscription Sucessful! Thank you for subscribing</p>:null}
                         <div className="flex space-x-2 mt-5 lg:mt-2">
                         <input
                         type="email"
                         placeholder="Your email"
                         className="text-sm px-3 lg:px-6 py-2 rounded-md w-2/3 bg-[#292929b9]"
                         />
-                        <button className="bg-gray-100 text-[#D905E5] px-4 py-2 font-normal rounded-md hover:bg-[#D905E5] hover:text-white text-sm w-1/3">
+                        <button onClick={handleSubscription} className="font-light bg-gray-100 text-[#D905E5] px-4 py-2 rounded-md hover:bg-[#D905E5] hover:text-white text-sm w-1/3">
                         submit
                         </button>
                         </div>
@@ -49,14 +60,14 @@ export default function Footer(){
                     </div>
                     <div className='lg:p-10 mt-20 lg:mt-0 lg:flex-row lg:justify-between lg:items-center flex flex-col gap-2'>
                     <div>
-                    <p className='text-sm'>Xavinche &copy; 2024</p>
+                   <p className='text-sm'>Xavinche &copy; 2024</p>
                     </div>
                     <div className='lg:flex-row lg:justify-between lg:gap-3 flex flex-col gap-2'>
                         <Link href='#'>
-                            <p className='text-sm'>Terms & conditions</p>
+                            <p className='text-sm hover:text-[#D905E5]'>Terms & conditions</p>
                         </Link>
                         <Link href='#'>
-                            <p className='text-sm'>Privacy Policy</p>
+                            <p className='text-sm hover:text-[#D905E5]'>Privacy Policy</p>
                         </Link>
                     </div>
                     </div>
