@@ -44,9 +44,9 @@ export default function SectionTwo() {
 
       <div className="lg:min-h-[400px] w-full lg:flex lg:p-20 p-10 transition-transform duration-300 ease-in-out hover:scale-105 border border-[#cccccc39] rounded-md relative z-10">
         <div className="lg:flex lg:flex-col gap-5 lg:w-1/2 justify-center">
-          <h2 className="text-3xl text-white">Long Term Perspective</h2>
+          <h2 className="text-3xl text-white">Taking Content Creation to the next Level</h2>
           <p className="text-gray-300 text-sm">
-            XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
+          In this digital age, Content creators and influencers have become the new trendsetters. By leveraging platforms that allow them to monetize their creativity, they have the power to transform their ideas into income.
           </p>
         </div>
         <div className="lg:w-1/2">
@@ -65,9 +65,9 @@ export default function SectionTwo() {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1, delay: 0.2 }} // Delay to stagger animation
         >
-          <h2 className="text-2xl text-white">Long Term Perspective</h2>
+          <h2 className="text-2xl text-white">Unlocking New Possibilities in Content Sharing</h2>
           <p className="text-gray-300 text-sm">
-            XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
+          With the evolution of social media applications, the potential for content sharing has never been greater. XaVinche takes it to the next level with a secure and transparent platform, powered by Blockchain technology founded on Solana.
           </p>
         </motion.div>
 
@@ -78,9 +78,10 @@ export default function SectionTwo() {
           transition={{ duration: 1, delay: 0.4 }} // Longer delay for stagger effect
         >
           <div className="lg:min-h-[300px] lg:flex lg:flex-col gap-2 lg:px-20 px-10 py-10 justify-center">
-            <h2 className="text-2xl text-white">Long Term Perspective</h2>
+            <h2 className="text-2xl text-white">Transforming Social Media into Revenue Streams</h2>
             <p className="text-gray-300 text-sm">
-              XaVinche enables users to control their digital identities and monetize content effortlessly. Leveraging the Solana blockchain, we offer a decentralized platform that rewards engagement and fosters genuine connections in social media.
+            With XaVinche, Influencers and Content Creators are able to transform their ‘Everyday Content’ into tradable NFTs.
+No longer would you have to mindlessly scroll through Social Media, or spend time, energy, and resources on a Content idea with no good returns on your effort.
             </p>
           </div>
         </motion.div>

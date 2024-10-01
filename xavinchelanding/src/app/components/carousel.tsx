@@ -6,18 +6,43 @@ export default function CarouselSection() {
     const contents = [
         {
             image: "/images/art.png",
-            title: "Taking Content Creation to the Next Level",
-            description: "In the digital age, content creators and influencers play a pivotal role in shaping trends and narratives. By leveraging platforms that allow them to monetize their creativity, they can transform everyday posts into significant income streams.",
+            title: "NeXa",
+            description: "User generated content is referred to as NeXa - which is derived from NFT.",
         },
         {
             image: "/images/art2.png",
-            title: "Unlocking New Possibilities in Content Sharing",
-            description: "With the evolution of social media applications, the potential for content sharing has never been greater. Xavinche introduces an innovative platform that harnesses blockchain technology to ensure transparency and security in content transactions.",
+            title: "Profile Creation and Personalization",
+            description: "Users are able to create unique profiles showcasing their identity, interests, and/or expertise. Users can also customize their experience through preferences, settings, or feeds around their specific niche.",
         },
         {
             image: "/images/sol.png",
-            title: "Transforming Social Media into Revenue Streams:",
-            description: "With XaVinche, Influencers and Content Creators are able to transform their ‘Everyday Content’ into tradable NFTs. No longer would you have to mindlessly scroll through Social Media, or spend time, energy, and resources on a Content idea with no good returns on your effort. Welcome to XaVinche, where Everybody Earns.",
+            title: "Interactivity",
+            description: "Users engage with each other's content through likes, comments, shares, or reactions.",
+        },  
+        {
+            image: "/images/art.png",
+            title: "Audience Growth Tools",
+            description: "User generated content is referred to as NeXa - which is derived from NFT.",
+        },
+        {
+            image: "/images/art2.png",
+            title: "Content Monetization",
+            description: "Once a NeXa (Content/Digital Asset) is posted, the Creator attaches a value (pulse) to it then pushes it for engagement across the platform. From getting a lot of engagement, the NeXa’s value will increase indicating a higher tokenized/monetary worth on that digital asset (NeXa). For instance, a NeXa is initially worth 0.1 SOL. Through engagement farming and influencing, the creator is able to gather more likes, more comments, and more shares, thereby increasing the asset's potential in the market which would in turn attract high-end investors to purchase said digital assets.",
+        },
+        {
+            image: "/images/sol.png",
+            title: "Engagement Metrics",
+            description: "Users can track the engagement metrics of their Content, such as likes, comments, or shares.",
+        },  
+        {
+            image: "/images/sol.png",
+            title: "Real-time Updates",
+            description: "XaVinche also provides real-time updates like news, and/or trending information.",
+        },  
+        {
+            image: "/images/sol.png",
+            title: "Community Building and Networking",
+            description: "XaVinche facilitates the creation of communities around shared interests, enabling users to connect with one another, form relationships, and/or networks.",
         },  
     ];
 

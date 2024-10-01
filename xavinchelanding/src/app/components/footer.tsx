@@ -69,6 +69,9 @@ export default function Footer(){
                         <Link href='#'>
                             <p className='text-sm hover:text-[#D905E5]'>Privacy Policy</p>
                         </Link>
+                        <Link href='#'>
+                            <p className='text-sm hover:text-[#D905E5]'>FAQs</p>
+                        </Link>
                     </div>
                     </div>
                 </div>
