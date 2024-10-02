@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ export default function Header() {
                                 </svg>
                             )}
                         </button>
-                        <img 
+                        <Image
                             src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"
@@ -77,7 +78,7 @@ export default function Header() {
             >
                 <div className="flex justify-between items-center p-4">
                     {/* <h3 className="text-white text-xl font-bold">Xavinche</h3> */}
-                    <img 
+                    <Image
                             src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"

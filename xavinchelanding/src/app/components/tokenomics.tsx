@@ -51,11 +51,11 @@ export default function Tokenomics() {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <span className="absolute -left-8 top-0 text-[#D905E5] text-5xl font-bold">“</span>
-        1. The opportunity to Earn Money from your Content (NeXa). <br/>
-        2. A chance to grow your Audience (even if you're an Amateur in your craft) and Reach for more Post engagement.<br/>
-        3. The ability to Optimize Your Content's Performance.
-        4. The opportunity to Connect with Like-minded Creators on the platform.
-        <span className="absolute -right-4 bottom-0 text-[#D905E5] text-5xl font-bold"> ”</span>
+          1. The opportunity to Earn Money from your Content (NeXa). <br />
+          2. A chance to grow your Audience (even if you&apos;re an Amateur in your craft) and Reach for more Post engagement.<br />
+          3. The ability to Optimize Your Content&apos;s Performance.<br />
+          4. The opportunity to Connect with Like-minded Creators on the platform.
+          <span className="absolute -right-4 bottom-0 text-[#D905E5] text-5xl font-bold"> ”</span>
         </motion.p>
       </div>
     </motion.div>

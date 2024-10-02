@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion'; // For additional animations
 
@@ -73,7 +74,7 @@ export default function CarouselSection() {
                 animate={animation ? { opacity: 1, scale: 1 } : {}} // Scale up with opacity when active
                 transition={{ duration: 0.5 }}
             >
-                <img 
+                <Image
                     src={contents[selectedContentIndex].image} 
                     alt={contents[selectedContentIndex].title} 
                     className={`w-3/5 md:w-2/5 lg:w-full h-auto rounded-md transition-opacity duration-500 ease-in-out opacity-100 lg:ml-16 ${animation ? 'animate-slide-up' : 'opacity-0'} 

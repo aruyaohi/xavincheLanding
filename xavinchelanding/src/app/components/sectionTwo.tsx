@@ -1,12 +1,15 @@
 'use client'
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 export default function SectionTwo() {
   const [isInView, setIsInView] = useState(false);
   const sectionRef = useRef(null);
 
   useEffect(() => {
+    const currentSectionRef = sectionRef.current;
+  
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -16,20 +19,21 @@ export default function SectionTwo() {
         });
       },
       {
-        threshold: 0.1, // Trigger when 10% of the element is in view
+        threshold: 0.1,
       }
     );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+  
+    if (currentSectionRef) {
+      observer.observe(currentSectionRef);
     }
-
+  
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSectionRef) {
+        observer.unobserve(currentSectionRef);
       }
     };
   }, []);
+  
 
   return (
     <motion.div
@@ -51,7 +55,7 @@ export default function SectionTwo() {
         </div>
         <div className="lg:w-1/2">
           {/* Additional Content Here */}
-          <img
+          <Image
             src="/images/longterm.png"
             alt="img"
           />

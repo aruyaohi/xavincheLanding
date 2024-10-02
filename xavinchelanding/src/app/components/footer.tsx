@@ -1,7 +1,8 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
-import {FaDiscord,FaXTwitter,FaInstagram,FaGithub, FaTelegram} from 'react-icons/fa6'
+import {FaDiscord,FaXTwitter,FaGithub, FaTelegram} from 'react-icons/fa6'
+import Image from 'next/image'
 
 export default function Footer(){
 
@@ -20,7 +21,7 @@ export default function Footer(){
                         <div className="lg:flex lg:flex-col gap-4">
                         <div className="flex justify-start gap-2">
                         {/* <h3 className="lg:text-xl text-3xl font-bold font-raleway tracking-widest">Xavinche</h3> */}
-                        <img 
+                        <Image
                             src="/images/logo1.png"
                             alt="logo"
                             className="w-28 h-28 lg:w-36 lg:h-36"
